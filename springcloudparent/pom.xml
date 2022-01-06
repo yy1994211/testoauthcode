@@ -58,6 +58,32 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--spring-boot test 依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--spring-boot redis 依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--spring oauth 依赖-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.security.oauth</groupId>
+                <artifactId>spring-security-oauth2</artifactId>
+                <version>2.3.6.RELEASE</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
